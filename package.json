@@ -86,6 +86,7 @@
   },
   "scripts": {
     "start": "nodemon ./bin/www.js",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -95,5 +96,10 @@
   "repository": {
     "type": "git",
     "url": ""
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
   }
 }
